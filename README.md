@@ -4,21 +4,23 @@ The Ordering system application aims to facilitate the process of placing orders
 
 ## Current Functionality
 
-In the current version, the application retrieves data from the backend to build the restaurant's menu.
+* In the current version, the application retrieves data from the backend to build the restaurant's menu.
 
 ## Planned Features
 
--Placing orders with the option to customize dishes
+* Placing orders with the option to customize dishes
 
--Forwarding orders to the backend for handling by another application
+* *Forwarding orders to the backend for handling by another application
 
--Assigning an individual order number
+* *Assigning an individual order number
 
 ## Technologies Used
 
 * react.js
--react router
--axios (for backend connection)
+
+* react router
+
+* axios (for backend connection)
 
 
 
