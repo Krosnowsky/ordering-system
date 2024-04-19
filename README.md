@@ -1,3 +1,28 @@
+# Description
+
+The Ordering system application aims to facilitate the process of placing orders. Using the react.js application, the client can place an order, which will be directly forwarded to the kitchen.
+
+## Current Functionality
+
+In the current version, the application retrieves data from the backend to build the restaurant's menu.
+
+## Planned Features
+
+-Placing orders with the option to customize dishes
+
+-Forwarding orders to the backend for handling by another application
+
+-Assigning an individual order number
+
+## Technologies Used
+
+-react.js
+-react router
+-axios (for backend connection)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
