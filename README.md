@@ -10,9 +10,9 @@ The Ordering system application aims to facilitate the process of placing orders
 
 * Placing orders with the option to customize dishes
 
-* *Forwarding orders to the backend for handling by another application
+* Forwarding orders to the backend for handling by another application
 
-* *Assigning an individual order number
+* Assigning an individual order number
 
 ## Technologies Used
 
