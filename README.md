@@ -16,7 +16,7 @@ In the current version, the application retrieves data from the backend to build
 
 ## Technologies Used
 
--react.js
+* react.js
 -react router
 -axios (for backend connection)
 
