@@ -22,7 +22,9 @@ The Ordering system application aims to facilitate the process of placing orders
 
 * axios (for backend connection)
 
+## Backend 
 
+The backend of the application is available at: https://github.com/Krosnowsky/ordering-system-backend
 
 
 # Getting Started with Create React App
