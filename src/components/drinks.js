@@ -1,5 +1,6 @@
 import React,{ useState, useEffect} from "react";
 import api from "../api";
+import { Link } from "react-router-dom";
 function Drinks(){
     const [drinks, setDrinks]=useState([]);
     
@@ -24,11 +25,11 @@ function Drinks(){
           if (drink.size === "s") {
             return (
             <div className="col-4 col-md-3 d-flex justify-content-center item-box flex-column" key={drink.id}>
-                <a href="#">
-                <img src={`${process.env.PUBLIC_URL}/img/drinks/${drink.image}`} alt="" srcset=""  className="img-fluid"/>
-                <h4 className="text-left px-3 text-title">{drink.name}</h4>
-                        <p className="text-left px-3 text-price">{drink.price} zł</p>
-            </a>
+                 <Link to={{ pathname: "/productdetails",  search: `?productId=${drink.productId}&type=drink` }}>
+                <img src={`${process.env.PUBLIC_URL}/img/drink/${drink.image}`} alt="" srcset=""  className="img-fluid"/>
+                <h4 className="text-left px-5 text-title">{drink.name}</h4>
+                        <p className="text-left px-3 mr-5 text-price">{drink.price} zł</p>
+                </Link>
             </div>    
                 )
           }

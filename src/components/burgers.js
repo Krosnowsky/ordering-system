@@ -28,9 +28,9 @@ function Burgers(){
                 {burgers.map(burger =>(
                     
                     <div className="col-6 col-md-3   d-flex justify-content-center item-box flex-column" key={burger.id}>
-                          <Link to={{ pathname: "/productdetails", state: { product: burger, type: "sandwitch" } }}>
+                           <Link to={{ pathname: "/productdetails",  search: `?productId=${burger.productId}&type=sandwitch` }}>
 
-                        <img src={`${process.env.PUBLIC_URL}/img/burgers/${burger.image}`} alt="" srcset=""  className="img-fluid"/>
+                        <img src={`${process.env.PUBLIC_URL}/img/sandwitch/${burger.image}`} alt="" srcset=""  className="img-fluid"/>
                         <h4 className="text-left px-3 text-title">{burger.name}</h4>
                         <p className="text-left px-3 text-price">{burger.price} zł</p>
                         

@@ -7,7 +7,7 @@ function Nav(){
             <div className="row ">
                     <Link to="/">Start</Link>
                 
-                    <Link className="item-box row" to="/burgers">
+                    <Link className="item-box row" to="/sandwitch">
                         <div className="col-6">
 
                         <img src={`${process.env.PUBLIC_URL}/img/menu_icon/burgers.png`} className="img-fluid"/>
@@ -18,7 +18,7 @@ function Nav(){
                         </div>
                         
                         </Link>
-                    <Link className="item-box row" to="/drinks">
+                    <Link className="item-box row" to="/drink">
                     <div className="col-6">
                         <img src={`${process.env.PUBLIC_URL}/img/menu_icon/drinks.png`} className="img-fluid"/>
                         </div>

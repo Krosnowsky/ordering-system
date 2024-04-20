@@ -16,6 +16,18 @@
 .item-box a{
   text-decoration: none;
 }
+.quantityBox{
+  padding:10px 50px ;
+  border-radius: 5px ;
+  border: 1px solid #aaaa;
+  margin: 0 10px;
+}
+.quantityBtn{
+  background-color: #eee;
+  border: 1px solid #aaaa;
+  border-radius: 5px ;
+  padding: 7px 20px;
+}
 .item-box {
   text-decoration: none;
 }
